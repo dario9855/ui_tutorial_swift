@@ -35,7 +35,7 @@ class ViewController: UIViewController,UITextFieldDelegate {
     }
     //Actions
     @IBAction func changeMealNameBtn(_ sender: UIButton) {
-        textFieldDidEndEditing(mealTextField)
+        mealNameLabel.text="default"
         
     }
 
