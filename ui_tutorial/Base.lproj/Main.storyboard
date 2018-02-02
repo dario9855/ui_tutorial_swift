@@ -61,7 +61,7 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="SCu-L1-0OY" customClass="RatingControl" customModule="ui_tutorial" customModuleProvider="target">
-                                <rect key="frame" x="27" y="521" width="200" height="110"/>
+                                <rect key="frame" x="38" y="515" width="252" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </stackView>
                         </subviews>
@@ -71,6 +71,7 @@
                         <outlet property="imageView" destination="rb1-dd-QHu" id="Htr-mF-xKn"/>
                         <outlet property="mealNameLabel" destination="VUo-zp-eGU" id="gpr-Bi-5sC"/>
                         <outlet property="mealTextField" destination="wbq-br-5mk" id="eDV-eh-hKj"/>
+                        <outlet property="ratingControl" destination="SCu-L1-0OY" id="LN5-jq-IZj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -80,7 +81,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="-609" y="-83"/>
+            <point key="canvasLocation" x="-1114" y="-68"/>
         </scene>
     </scenes>
     <resources>

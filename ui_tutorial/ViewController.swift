@@ -20,6 +20,7 @@ class ViewController: UIViewController,UITextFieldDelegate,UIImagePickerControll
     @IBOutlet weak var mealTextField: UITextField!
     @IBOutlet weak var mealNameLabel: UILabel!
     @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var ratingControl: RatingControl!
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
